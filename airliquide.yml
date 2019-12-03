@@ -15,7 +15,7 @@ Resources:
   airliquideImageRepo:
       Type: AWS::ECR::Repository
       Properties: 
-        RepositoryName: airliquide
+        RepositoryName: model
 
   AirliquideBucket:
       Type: AWS::S3::Bucket
